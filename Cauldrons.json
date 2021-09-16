@@ -1,0 +1,101 @@
+{
+    "ALCX": {
+        "address": "0x7b7473a76D6ae86CE19f7352A1E89F6C9dc39020",
+        "footer": "ALCHEMIX.FI",
+        "logo": "https://abracadabra.money/img/Token_ALCX.c28c754c.png",
+        "monitored": true,
+        "previous_amount": "2194741.923146797771890823",
+        "title": "Alchemix Finance",
+        "website": "https://alchemix.fi"
+    },
+    "Cvx3pool": {
+        "address": "0x806e16ec797c69afa8590A55723CE4CC1b54050E",
+        "footer": "CONVEXFINANCE.COM",
+        "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888169745432608818/cvx3pool.png",
+        "monitored": true,
+        "previous_amount": "230.427648362000754029",
+        "title": "CVX 3Pool",
+        "website": "https://convexfinance.com"
+    },
+    "FTM": {
+        "address": "0x05500e2Ee779329698DF35760bEdcAAC046e7C27",
+        "footer": "FANTOM.FOUNDATION",
+        "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888170595123089468/FTM.png",
+        "monitored": true,
+        "previous_amount": "54918.389523077445837542",
+        "title": "Fantom",
+        "website": "https://fantom.foundation"
+    },
+    "wsOHM": {
+        "address": "0x003d5A75d284824Af736df51933be522DE9Eed0f",
+        "footer": "OLYMPUSDAO.FINANCE",
+        "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888172737418391592/wsOHM.png",
+        "monitored": true,
+        "previous_amount": "1.44688753412384469",
+        "title": "Wrapped sOHM",
+        "website": "http://olympusdao.finance/"
+    },
+    "xSUSHI": {
+        "address": "0x98a84EfF6e008c5ed0289655CcdCa899bcb6B99F",
+        "footer": "SUSHI.COM",
+        "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888172958340759562/xSUSHI.png",
+        "monitored": true,
+        "previous_amount": "531.829419057564058354",
+        "title": "xSUSHI",
+        "website": "https://sushi.com"
+    },
+    "yvUSDCv2": {
+        "address": "0x6cbAFEE1FaB76cA5B5e144c43B3B50d42b7C8c8f",
+        "footer": "YEARN.FINANCE",
+        "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888175928671350805/yvUSDC.png",
+        "monitored": true,
+        "previous_amount": "7659399.542254294919232776",
+        "title": "Yearn USDC Vault",
+        "website": "https://yearn.finance"
+    },
+    "yvUSDTv2": {
+        "address": "0x551a7CfF4de931F32893c928bBc3D25bF1Fc5147",
+        "footer": "YEARN.FINANCE",
+        "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888175423979134996/yvUSDT.png",
+        "monitored": true,
+        "previous_amount": "5775285.782134278652440313",
+        "title": "Yearn USDT Vault",
+        "website": "https://yearn.finance"
+    },
+    "yvWETHv2": {
+        "address": "0x920D9BD936Da4eAFb5E25c6bDC9f6CB528953F9f",
+        "footer": "YEARN.FINANCE",
+        "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888176726981636136/yvWETH.png",
+        "monitored": true,
+        "previous_amount": "99.225853731307045056",
+        "title": "Yearn wETH Vault",
+        "website": "https://yearn.finance"
+    },
+    "yvYFI": {
+        "address": "0xFFbF4892822e0d552CFF317F65e1eE7b5D3d9aE6",
+        "footer": "YEARN.FINANCE",
+        "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888175700333445190/yvYFI.png",
+        "monitored": true,
+        "previous_amount": "10843989.162596182263282248",
+        "title": "Yearn YFI Vault",
+        "website": "https://yearn.finance"
+    },
+    "yvcrvIB": {
+        "address": "0xEBfDe87310dc22404d918058FAa4D56DC4E93f0A",
+        "footer": "YEARN.FINANCE",
+        "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888178637831028776/yvcrvIB.png",
+        "monitored": true,
+        "previous_amount": "4073555.415519336030630788",
+        "title": "Yearn Iron Bank Vault",
+        "website": "https://yearn.finance"
+    },
+    "yvstETH": {
+        "address": "0x0BCa8ebcB26502b013493Bf8fE53aA2B1ED401C1",
+        "footer": "YEARN.FINANCE",
+        "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888174311985266698/yvcrvSTETH.jpeg",
+        "monitored": true,
+        "previous_amount": "9392450.332306457451358759",
+        "title": "Yearn stETH Vault",
+        "website": "https://yearn.finance"
+    }
+}
