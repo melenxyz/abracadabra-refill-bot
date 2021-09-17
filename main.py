@@ -15,10 +15,10 @@ project_id = os.getenv('PROJECT_ID')
 webhook_url= os.getenv('WEBHOOK')
 
 webhook = DiscordWebhook(url=webhook_url) #Discord WebHook URL
-w3 = Web3(Web3.HTTPProvider('https://arb1.arbitrum.io/rpc')) #Network RPC
+w3 = Web3(Web3.HTTPProvider('https://rpc.ftm.tools/')) #Network RPC
 
-bb_address = w3.toChecksumAddress("0x74c764D41B77DBbb4fe771daB1939B00b146894A") #BentoBox Contract Address
-MIM_contract_address=w3.toChecksumAddress("0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a") #MIM Contract Address
+bb_address = w3.toChecksumAddress("0x74A0BcA2eeEdf8883cb91E37e9ff49430f20a616") #BentoBox Contract Address
+MIM_contract_address=w3.toChecksumAddress("0x82f0b8b456c1a451378467398982d4834b6829c1") #MIM Contract Address
 bb_ABI = json.load(open('BentoBoxV1.json', 'r')) #BentoBox ABI load, from BentoBoxV1.json
 bentobox = w3.eth.contract(address=bb_address, abi=bb_ABI) 
 
@@ -33,10 +33,10 @@ def  getMIMAmount(mim_address, cauldron):
 def sendMessage(tokens, amount):
     amount=int(amount)
     amount=(f"{amount:,}")
-    embed=DiscordEmbed(title=cauldrons[tokens]['title'], url=cauldrons[tokens]['website'], color=0xffffff)
+    embed=DiscordEmbed(title=cauldrons[tokens]['title'], url=cauldrons[tokens]['website'], color=0x1b96f0)
     embed.set_thumbnail(url=cauldrons[tokens]['logo'])
-    embed.add_embed_field(name="%s Market Replenish" %tokens, value="%s MIMs are available for minting on Arbitrum Mainnet! <:MIM:888155951016857662>" %amount, inline=False)
-    embed.set_footer(text="Arbitrum L2")
+    embed.add_embed_field(name="%s Market Replenish" %tokens, value="%s MIMs are available for minting on Fantom Opera! <:MIM:888155951016857662>" %amount, inline=False)
+    embed.set_footer(text="FANTOM OPERA")
     webhook.add_embed(embed)
     response = webhook.execute(remove_embeds=True)
     sleep(5)

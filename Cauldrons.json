@@ -1,10 +1,18 @@
 {
-    "ETH": {
-        "address": "0xC89958B03A55B5de2221aCB25B58B89A000215E6",
-        "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888393207250046976/Group_935.png",
+    "wFTM 1.8%": {
+        "address": "0xd4357d43545F793101b592bACaB89943DC89d11b",
+        "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888170595123089468/FTM.png",
         "monitored": true,
-        "previous_amount": "9.852888768587954684",
-        "title": "Ether",
-        "website": "https://offchainlabs.com"
+        "previous_amount": "0",
+        "title": "Fantom",
+        "website": "https://fantom.foundation"
+    },
+    "wFTM 3.5%": {
+        "address": "0x8E45Af6743422e488aFAcDad842cE75A09eaEd34",
+        "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888170595123089468/FTM.png",
+        "monitored": true,
+        "previous_amount": "0",
+        "title": "Fantom",
+        "website": "https://fantom.foundation"
     }
 }
