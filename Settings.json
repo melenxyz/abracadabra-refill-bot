@@ -5,7 +5,7 @@
         "RPC": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
         "threshold": 150000,
         "color":"0x37367b",
-        "message_name":"ETH Mainnet"
+        "message_name":"Ethereum"
     },
 
     "ARBITRUM L2": {
@@ -14,7 +14,7 @@
         "RPC": "https://arb1.arbitrum.io/rpc",
         "threshold": 100000,
         "color":"0xffffff",
-        "message_name":"Arbitrum L2"
+        "message_name":"Arbitrum"
     },
 
     "FANTOM OPERA": {
@@ -23,7 +23,7 @@
         "RPC": "https://rpc.ftm.tools/",
         "threshold": 100000,
         "color":"0x1b96f0",
-        "message_name":"Fantom Opera"
+        "message_name":"Fantom"
     },
 
     "AVALANCHE NETWORK": {
