@@ -34,14 +34,16 @@ for chain in settings.keys(): #Go though each chain
     for tokens in cauldrons.keys(): #Go through each Cauldron entry
         if cauldrons[tokens]['chain'] == chain: #Check wether the Cauldron entry is on the chain we are working with 
             amount=getMIMAmount(MIM_contract_address, w3.toChecksumAddress(cauldrons[tokens]['address'])) #Gets MIM available for the cauldron
-            print("%s :" %tokens)
-            print("Old amount : ", cauldrons[tokens]['previous_amount'])
             
             if checkTreshold(Decimal(cauldrons[tokens]['previous_amount']), Decimal(amount), Decimal(settings[chain]['threshold'])): #Compare amount with previous amount and check if above threshold, defined per chain
+                print("%s on %s:" %(tokens, chain))
+                print("Old amount : ", cauldrons[tokens]['previous_amount'])
+                print("New amount : ", amount)
+                print("-----")
                 discordWH.sendMessage(tokens, amount, cauldrons, settings, chain) #Send discord msg
                 twitter.tweet(tokens, amount, settings, chain)
+
             cauldrons[tokens]['previous_amount']=str(amount) #Store amount as Previous_amount
-            print("New amount : ", cauldrons[tokens]['previous_amount'])
-            print("-----")
+            
     
     json.dump(cauldrons, open("Cauldrons.json", 'w'), indent=4, sort_keys=True)

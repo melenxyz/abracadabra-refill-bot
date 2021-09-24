@@ -23,8 +23,8 @@ def tweet(tokens, amount, settings, chain):
     line2="💸 https://abracadabra.money/stand 💸" 
     message='\n \n'.join([line1, line2])
     if len(message) < 280:
-        print(message)
         api.update_status(message)
+        print(message)
     else:
         print("tweet too long")
     sleep(5)
