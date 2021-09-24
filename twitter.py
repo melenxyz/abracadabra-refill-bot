@@ -19,7 +19,7 @@ api = tweepy.API(auth,
 def tweet(tokens, amount, settings, chain):
     amount=int(amount)
     amount=(f"{amount:,}")
-    line1="🚨 %s $MIM are available to be minted #%s using $%s as collateral! 🚨" %(amount,settings[chain]['message_name'], tokens)
+    line1="🚨 %s $MIM are available to be minted on #%s using $%s as collateral! 🚨" %(amount,settings[chain]['message_name'], tokens)
     line2="💸 https://abracadabra.money/stand 💸" 
     message='\n \n'.join([line1, line2])
     if len(message) < 280:
