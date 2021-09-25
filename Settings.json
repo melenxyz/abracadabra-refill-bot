@@ -18,7 +18,7 @@
     },
 
     "FANTOM OPERA": {
-        "bentobox": "0x74A0BcA2eeEdf8883cb91E37e9ff49430f20a616",
+        "bentobox": "0xF5BCE5077908a1b7370B9ae04AdC565EBd643966",
         "MIM": "0x82f0b8b456c1a451378467398982d4834b6829c1",
         "RPC": "https://rpc.ftm.tools/",
         "threshold": 250000,
