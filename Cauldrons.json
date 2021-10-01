@@ -3,7 +3,7 @@
         "address": "0x7b7473a76D6ae86CE19f7352A1E89F6C9dc39020",
         "chain": "ETHEREUM MAINNET",
         "logo": "https://abracadabra.money/img/Token_ALCX.c28c754c.png",
-        "previous_amount": "425778.165725495118118311",
+        "previous_amount": "427144.051654812550951231",
         "title": "Alchemix Finance",
         "website": "https://alchemix.fi"
     },
@@ -11,7 +11,7 @@
         "address": "0x3CFEd0439aB822530b1fFBd19536d897EF30D2a2",
         "chain": "AVALANCHE NETWORK",
         "logo": "https://assets.coingecko.com/coins/images/12559/large/coin-round-red.png?1604021818",
-        "previous_amount": "19282915.721618743664486348",
+        "previous_amount": "14239296.056013559392560986",
         "title": "AVAX",
         "website": "https://avax.network/"
     },
@@ -19,7 +19,7 @@
         "address": "0x806e16ec797c69afa8590A55723CE4CC1b54050E",
         "chain": "ETHEREUM MAINNET",
         "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888169745432608818/cvx3pool.png",
-        "previous_amount": "1250.422406794231923852",
+        "previous_amount": "83.187407116943797983",
         "title": "CVX 3Pool",
         "website": "https://convexfinance.com"
     },
@@ -27,7 +27,7 @@
         "address": "0x4eaed76c3a388f4a841e9c765560bbe7b3e4b3a0",
         "chain": "ETHEREUM MAINNET",
         "logo": "https://cdn.discordapp.com/attachments/828696357719769088/892436685827244042/Group_900.png",
-        "previous_amount": "13569618.276145188681862362",
+        "previous_amount": "12312956.977679215372575915",
         "title": "CVX TriCrypto 2",
         "website": "https://convexfinance.com"
     },
@@ -35,7 +35,7 @@
         "address": "0xC89958B03A55B5de2221aCB25B58B89A000215E6",
         "chain": "ARBITRUM L2",
         "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888393207250046976/Group_935.png",
-        "previous_amount": "12110796.080130745284472648",
+        "previous_amount": "11396314.208691561859893829",
         "title": "Ether",
         "website": "https://offchainlabs.com"
     },
@@ -43,15 +43,23 @@
         "address": "0x05500e2Ee779329698DF35760bEdcAAC046e7C27",
         "chain": "ETHEREUM MAINNET",
         "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888170595123089468/FTM.png",
-        "previous_amount": "6010.425250026539160964",
+        "previous_amount": "2016.937213823572479509",
         "title": "Fantom",
         "website": "https://fantom.foundation"
+    },
+    "MEMO": {
+        "address": "0x56984F04d2d04B2F63403f0EbeDD3487716bA49d",
+        "chain": "AVALANCHE NETWORK",
+        "logo": "https://assets.coingecko.com/coins/images/12559/large/coin-round-red.png?1604021818",
+        "previous_amount": "0",
+        "title": "MEMO",
+        "website": "https://wonderland.money/"
     },
     "aGLD": {
         "address": "0xc1879bf24917ebE531FbAA20b0D05Da027B592ce",
         "chain": "ETHEREUM MAINNET",
         "logo": "https://assets.coingecko.com/coins/images/18125/small/lpgblc4h_400x400.jpg?1630570955",
-        "previous_amount": "4999986.05996102773965316",
+        "previous_amount": "4673695.323645694652111405",
         "title": "Adventure'sn Gold (AGLD)",
         "website": "https://www.lootproject.com/"
     },
@@ -59,7 +67,7 @@
         "address": "0xc319eea1e792577c319723b5e60a15da3857e7da",
         "chain": "ETHEREUM MAINNET",
         "logo": "https://cdn.discordapp.com/attachments/828696357719769088/890323871323000842/sspell-new_2.png",
-        "previous_amount": "31.722121759636426388",
+        "previous_amount": "991.744277005656701953",
         "title": "Staked SPELL sSPELL",
         "website": "https://abracadabra.money"
     },
@@ -67,7 +75,7 @@
         "address": "0xd4357d43545F793101b592bACaB89943DC89d11b",
         "chain": "FANTOM OPERA",
         "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888170595123089468/FTM.png",
-        "previous_amount": "503059.047538144413104563",
+        "previous_amount": "498502.145779424470187158",
         "title": "Fantom",
         "website": "https://fantom.foundation"
     },
@@ -75,7 +83,7 @@
         "address": "0x8E45Af6743422e488aFAcDad842cE75A09eaEd34",
         "chain": "FANTOM OPERA",
         "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888170595123089468/FTM.png",
-        "previous_amount": "2373365.858491367172156431",
+        "previous_amount": "2364748.164536750626417367",
         "title": "Fantom",
         "website": "https://fantom.foundation"
     },
@@ -83,7 +91,7 @@
         "address": "0x003d5A75d284824Af736df51933be522DE9Eed0f",
         "chain": "ETHEREUM MAINNET",
         "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888172737418391592/wsOHM.png",
-        "previous_amount": "1.693233838205264075",
+        "previous_amount": "0.844799742210781449",
         "title": "Wrapped sOHM",
         "website": "http://olympusdao.finance/"
     },
@@ -91,7 +99,7 @@
         "address": "0x98a84EfF6e008c5ed0289655CcdCa899bcb6B99F",
         "chain": "ETHEREUM MAINNET",
         "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888172958340759562/xSUSHI.png",
-        "previous_amount": "6344761.328222827180845736",
+        "previous_amount": "5626996.91895505590850535",
         "title": "xSUSHI",
         "website": "https://sushi.com"
     },
@@ -99,7 +107,7 @@
         "address": "0x6cbAFEE1FaB76cA5B5e144c43B3B50d42b7C8c8f",
         "chain": "ETHEREUM MAINNET",
         "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888175928671350805/yvUSDC.png",
-        "previous_amount": "19.820544812115953575",
+        "previous_amount": "798.387195479062894193",
         "title": "Yearn USDC Vault",
         "website": "https://yearn.finance"
     },
@@ -107,7 +115,7 @@
         "address": "0x551a7CfF4de931F32893c928bBc3D25bF1Fc5147",
         "chain": "ETHEREUM MAINNET",
         "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888175423979134996/yvUSDT.png",
-        "previous_amount": "25160.43550679681453748",
+        "previous_amount": "10857.729894477623318955",
         "title": "Yearn USDT Vault",
         "website": "https://yearn.finance"
     },
@@ -115,7 +123,7 @@
         "address": "0x920D9BD936Da4eAFb5E25c6bDC9f6CB528953F9f",
         "chain": "ETHEREUM MAINNET",
         "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888176726981636136/yvWETH.png",
-        "previous_amount": "78264.786047083419684419",
+        "previous_amount": "5.397569540851799",
         "title": "Yearn wETH Vault",
         "website": "https://yearn.finance"
     },
@@ -123,7 +131,7 @@
         "address": "0xed745b045f9495b8bfc7b58eea8e0d0597884e12",
         "chain": "FANTOM OPERA",
         "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888170595123089468/FTM.png",
-        "previous_amount": "11394904.376902882969141526",
+        "previous_amount": "11330545.792956987368398695",
         "title": "Yearn wFTM Vault",
         "website": "https://ape.tax/the-fantom"
     },
@@ -131,7 +139,7 @@
         "address": "0xFFbF4892822e0d552CFF317F65e1eE7b5D3d9aE6",
         "chain": "ETHEREUM MAINNET",
         "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888175700333445190/yvYFI.png",
-        "previous_amount": "9932737.324549947954999366",
+        "previous_amount": "9932351.538475102091883496",
         "title": "Yearn YFI Vault",
         "website": "https://yearn.finance"
     },
@@ -139,7 +147,7 @@
         "address": "0xEBfDe87310dc22404d918058FAa4D56DC4E93f0A",
         "chain": "ETHEREUM MAINNET",
         "logo": "https://cdn.discordapp.com/attachments/888144726988062784/888178637831028776/yvcrvIB.png",
-        "previous_amount": "116.640759601322232511",
+        "previous_amount": "0.640759832153707696",
         "title": "Yearn Iron Bank Vault",
         "website": "https://yearn.finance"
     },
