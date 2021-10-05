@@ -7,7 +7,7 @@ import twitter
 
 
 cauldrons = json.loads(open("Cauldrons.json", 'r').read()) #Loads Cauldrons.json as a nested dic
-settings= json.loads(open("Settings.json", 'r').read()) #Loads Chains Info
+settings = json.loads(open("Settings.json", 'r').read()) #Loads Chains Info
 
 def checkTreshold(previous_amount, amount, treshold):
     if amount - previous_amount > treshold: #check if the increase is > treshold
@@ -40,10 +40,14 @@ for chain in settings.keys(): #Go though each chain
                 print("Old amount : ", cauldrons[tokens]['previous_amount'])
                 print("New amount : ", amount)
                 print("-----")
-                discordWH.sendMessage(tokens, amount, cauldrons, settings, chain) #Send discord msg
-                twitter.tweet(tokens, amount, settings, chain)
+                # try:
+                #     discordWH.sendMessage(tokens, amount, cauldrons, settings, chain) #Send discord msg
+                # except:
+                #     print("error sending discord message")
+                # twitter.tweet(tokens, amount, settings, chain)
+                
 
             cauldrons[tokens]['previous_amount']=str(amount) #Store amount as Previous_amount
             
     
-    json.dump(cauldrons, open("Cauldrons.json", 'w'), indent=4, sort_keys=True)
+json.dump(cauldrons, open("Cauldrons.json", 'w'), indent=4, sort_keys=True)

@@ -23,8 +23,13 @@ def tweet(tokens, amount, settings, chain):
     line2="💸 https://abracadabra.money/stand 💸" 
     message='\n \n'.join([line1, line2])
     if len(message) < 280:
-        api.update_status(message)
-        print(message)
+        try:
+            api.update_status(message)
+            print("tweet sent!")
+        except tweepy.TweepError as e:
+            print(e.message[0]['code'])
+        except:
+            print("error sending tweet")
     else:
         print("tweet too long")
     sleep(5)
