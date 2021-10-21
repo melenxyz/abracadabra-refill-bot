@@ -1,38 +1,45 @@
 {
-    "ETHEREUM MAINNET": {
-        "bentobox": "0xf5bce5077908a1b7370b9ae04adc565ebd643966",
-        "MIM": "0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3",
-        "RPC": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
-        "threshold": 500000,
-        "color":"0x37367b",
-        "message_name":"Ethereum"
-    },
+  "ETHEREUM MAINNET": {
+    "bentobox": "0xf5bce5077908a1b7370b9ae04adc565ebd643966",
+    "MIM": "0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3",
+    "RPC": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+    "threshold": 500000,
+    "color": "0x37367b",
+    "message_name": "Ethereum"
+  },
 
-    "ARBITRUM L2": {
-        "bentobox": "0x74c764D41B77DBbb4fe771daB1939B00b146894A",
-        "MIM": "0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a",
-        "RPC": "https://arb-mainnet.g.alchemy.com/v2/NVwxFKofzwyyzzHTPG313ZRur1B4L-kh",
-        "threshold": 250000,
-        "color":"0xffffff",
-        "message_name":"Arbitrum"
-    },
+  "ARBITRUM L2": {
+    "bentobox": "0x74c764D41B77DBbb4fe771daB1939B00b146894A",
+    "MIM": "0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a",
+    "RPC": "https://arb-mainnet.g.alchemy.com/v2/NVwxFKofzwyyzzHTPG313ZRur1B4L-kh",
+    "threshold": 250000,
+    "color": "0xffffff",
+    "message_name": "Arbitrum"
+  },
 
-    "FANTOM OPERA": {
-        "bentobox": "0xF5BCE5077908a1b7370B9ae04AdC565EBd643966",
-        "MIM": "0x82f0b8b456c1a451378467398982d4834b6829c1",
-        "RPC": "https://rpc.ftm.tools/",
-        "threshold": 250000,
-        "color":"0x1b96f0",
-        "message_name":"Fantom"
-    },
+  "FANTOM OPERA": {
+    "bentobox": "0xF5BCE5077908a1b7370B9ae04AdC565EBd643966",
+    "MIM": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+    "RPC": "https://rpc.ftm.tools/",
+    "threshold": 250000,
+    "color": "0x1b96f0",
+    "message_name": "Fantom"
+  },
 
-    "AVALANCHE NETWORK": {
-        "bentobox": "0xf4F46382C2bE1603Dc817551Ff9A7b333Ed1D18f",
-        "MIM": "0x130966628846BFd36ff31a822705796e8cb8C18D",
-        "RPC": "https://api.avax.network/ext/bc/C/rpc",
-        "threshold": 250000,
-        "color":"0xe42829",
-        "message_name":"Avalanche"
-
-    }
+  "AVALANCHE NETWORK": {
+    "bentobox": "0xf4F46382C2bE1603Dc817551Ff9A7b333Ed1D18f",
+    "MIM": "0x130966628846BFd36ff31a822705796e8cb8C18D",
+    "RPC": "https://api.avax.network/ext/bc/C/rpc",
+    "threshold": 250000,
+    "color": "0xe42829",
+    "message_name": "Avalanche"
+  },
+  "ETHEREUM DEGEN": {
+    "bentobox": "0xd96f48665a1410C0cd669A88898ecA36B9Fc2cce",
+    "MIM": "0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3",
+    "RPC": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+    "threshold": 500000,
+    "color": "0x37367b",
+    "message_name": "Ethereum"
+  }
 }
